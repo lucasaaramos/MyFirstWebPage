@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=PT+Sans:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+
+<body>
+
+    <!-- Links (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-row w3-padding w3-black">
+            <div class="w3-col s3" active>
+                <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+            </div>
+
+            <div class="w3-col s3">
+                <a href="page1.html" class="w3-button w3-block w3-black">HTML</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="page2.html" class="w3-button w3-block w3-black">CSS</a>
+            </div>
+            <div class="w3-col s3">
+                <a href="page3.html" class="w3-button w3-block w3-black">JAVA SCRIPT</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <main>
+
+        <div id="slider">
+
+            <img class="selected" src="./background_image.PNG" alt="Image1">
+            <img src="./comp_back.jpg" alt="Image2">
+            <img src="./Comp.png" alt="Image3">
+        </div>
+
+
+
+
+    </main>
+
+
+    <a name="html"></a>
+
+
+
+    <div class="text">
+
+
+        <h1 class="head-line"><b>WHAT IS HTML?</b></h1>
+
+        <P>HTML (HiperText Markup Language) is the basic component of the web which allows you to insert content and
+            establish the basic structure of a website. Therefore, it serves to give meaning and organize the
+            information of a web page. Without this, the browser would not be able to display text as elements or upload
+            images and other content. Hypertexts are sets of connected elements. These can be words, images, videos,
+            document, etc. When connected, they form a network of information that allows data communication, organizing
+            knowledge and saving information. When visiting a simple web page, you may notice that there are different
+            distributions and sizes for titles, paragraphs, images, videos, and any other element. This structure is
+            established through HTML. At the beginning of the web, it was common to find sites only containing simple
+            texts and images, with basic structure and without stylizations. However, these days, you will hardly find
+            sites that have only HTML elements. Therefore, we can consider HTML the "skeleton" of your page. Imagine
+            then that in addition to the skeleton, it is necessary to have the body. For this, we then have the CSS and
+            JavaScript languages, which together with HTML, form the basis for all current websites.
+        </P>
+
+
+
+    </div>
+
+    <br>
+
+    <div class="botle">
+
+        <button onclick="myFunction_html()"><img class="play" src="play.png" alt="What a Tutorial video"></button>
+
+
+        <div id="video_html">
+
+
+            <video width="420" controls>
+                <source src="HTML5.mp4" type="video/mp4" />
+
+                Your browser does not support HTML video.
+            </video>
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+    <a name="css"></a>
+
+    <div class="text">
+
+
+        <h1 class="head-line"><b>WHAT IS CSS?</b></h1>
+
+        <P>
+            CSS (Cascading Style Sheets) são folhas de estilo em cascata. O CSS é uma linguagem que complementa e
+            formata o HTML (HyperText Markup Language, a Linguagem de Marcação de Hipertexto) organizando melhor as
+            linhas e adicionando novas possibilidades ao código. Com ele, você pode modificar praticamente tudo dentro
+            do seu layout (como as cores, background, características de fontes, margens, preenchimentos, posição, até a
+            própria estrutura do site com a propriedade float). O CSS ajuda a manter as informações de um documento
+            separadas dos detalhes de como exibi-la. Esses detalhes de como exibir o documento são conhecidos como
+            estilo. Você mantém o estilo separado do conteúdo e assim, pode evitar duplicação, tornar a manutenção mais
+            fácil e utilizar o conteúdo com diferentes estilos para diferentes propósitos.
+        </P>
+
+
+    </div>
+
+
+    <div class="botle">
+
+        <button onclick="myFunction_css()"><img class="play" src="play.png" alt="What a Tutorial video"></button>
+
+
+        <div id="video_css">
+
+
+            <video width="420" controls>
+                <source src="What is CSS.mp4" type="video/mp4" />
+
+                Your browser does not support HTML video.
+            </video>
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+    
+    <a name="javasc"></a>
+
+    <div class="text">
+
+
+        <h1 class="head-line"><b>WHAT IS JAVA SCRIPT?</b></h1>
+
+
+        <P>
+            JavaScript is a programming language that enables the implementation of complex objects on web pages.
+            Content on pages that are constantly updated (news sites, for example), interactive information on graphics,
+            2D or 3D animations, etc. All this is only possible thanks to JavaScript.
+            Unlike remote runs on web servers, JavaScript is known to run programs locally. In this way, it is in a
+            client server format, that is, client-side.
+            Thus, web pages can program, process and transform data, communicating with content in HTML language. This
+            same content still has the possibility of stylization, due to the CSS applied in the process.
+            Code written in JavaScript and executed in a browser enables updates of content from a web page without it
+            being fully loaded. This creates a wide variety of complete software that meets a variety of demands.
+            In this way, websites and applications with a high level of complexity can be developed, in addition to
+            simpler applications, aimed at smartphones, for example.
+        </P>
+
+        
+
+    </div>
+
+    
+    <div class="botle">
+
+        <button onclick="myFunction_js()"><img class="play" src="play.png" alt="What a Tutorial video"></button>
+
+
+        <div id="video_js">
+
+
+            <video width="420" controls>
+                <source src="What is JS.mp4" type="video/mp4" />
+
+                Your browser does not support HTML video.
+            </video>
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+</body>
+
+</html>
